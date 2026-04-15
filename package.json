@@ -12,6 +12,7 @@
     "allure": "allure generate ./allure-results --clean && allure open"
   },
 
+  
   "devDependencies": {
     "@playwright/test": "...",
     "typescript": "...",
