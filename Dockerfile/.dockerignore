@@ -1,0 +1,8 @@
+node_modiles
+dist
+coverage
+*.log
+*.tmp
+*.env
+test-results
+playwright-report    

@@ -1,0 +1,22 @@
+{
+  "name": "testforge-playwright",
+  "version": "1.0.0",
+
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report",
+    "debug": "playwright test --debug",
+    "smoke": "playwright test --grep \"@smoke\"",
+    "apitest": "playwright test --grep \"@apitest\"",
+    "regression": "playwright test --grep \"@regression\"",  
+    "allure": "allure generate ./allure-results --clean && allure open"
+  },
+
+  "devDependencies": {
+    "@playwright/test": "...",
+    "typescript": "...",
+    "ts-node": "...",
+    "dotenv": "...",
+    "@types/node": "..."
+  }
+}
