@@ -18,5 +18,3 @@ export const test = base.extend<MyFixtures>({
 });
 
 export { expect };
-
-git remote add origin https://github.com/sandeepkumarcts/testforge-playwright.git
